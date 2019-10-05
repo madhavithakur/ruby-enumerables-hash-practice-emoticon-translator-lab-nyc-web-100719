@@ -6,7 +6,7 @@ result = YAML.load_file(emoticons.yml)
 hash = {:get_meaning => {}, :get_emoticon => {}}
  
  hash.each do |key, val|
-   
+ end 
   
 end
 
