@@ -5,7 +5,7 @@ def load_library(emoticons)
  
   hash = {:get_meaning => {}, :get_emoticon => {}}
  
-  hash.each do |key, val|
+ result.each do |key, val|
     hash['get_emoticon'][val][0] = result[key][1]
   end 
   hash
