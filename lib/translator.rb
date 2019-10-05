@@ -14,6 +14,10 @@ end
 def get_japanese_emoticon(path, emoticons)
    path = YAML.load_file(emoticons) ['get_emoticon'][emoticons]
    
+   if path
+     path 
+   else
+     "Sorry!"
   
   
 end
