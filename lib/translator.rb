@@ -23,6 +23,11 @@ end
 
 def get_english_meaning(path, emoticons)
   path = load_library(path)["get_emoticon"][emoticons]
-  
+   
+   if path 
+     path
+   else
+     "Sorry, that emoticon was not found"
+   end 
   
 end
